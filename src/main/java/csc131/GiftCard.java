@@ -3,6 +3,8 @@ package csc131;
  * An encapsulation of a gift card that can be used to
  * make purchases at a retail store.
  */
+
+
 public class GiftCard
 {
     
@@ -63,7 +65,7 @@ public class GiftCard
         
         if (amount < 0.0)
         {
-            result = "Invalid Transaction";
+            result = "Invalid Transaction, given amount is less than 0.";
         }
         else
         {
